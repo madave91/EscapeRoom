@@ -11,6 +11,6 @@ Content/StarterContent/
 ####################
 #VS Generated Files#
 ####################
-
-*.VC.db
+v15/
+*.VC.db*
 *.ipch
