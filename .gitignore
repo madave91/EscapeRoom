@@ -13,3 +13,4 @@ Content/StarterContent/
 ####################
 
 *.VC.db
+*.ipch
