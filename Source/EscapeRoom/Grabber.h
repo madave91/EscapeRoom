@@ -34,8 +34,22 @@ private:
 	
 	//Raycast and Grab what we need
 	void Grab();
+	
+	//Grab release
 	void Release();
+
+	//find attached pyshics handle
 	void FindPhysicsHandleComponent();
-	void FindInputComponent();
+
+	//find input component
+	void SetupInputComponent();
+
+	//returen hit from the first pyhsics body
 	const FHitResult GetFirstPhysicsBodyInReach();
+
+	//returns current end od reach line
+	FVector GetReachLineStart();
+
+	//returns current end od reach line
+	FVector GetReachLineEnd();
 };
